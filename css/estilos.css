@@ -1,0 +1,58 @@
+.contenedor1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 1400px; /* Ancho del contenedor */
+    height: 80px; /* Altura del contenedor */
+    border: 2px solid #000; /* Borde sólido de 2px de ancho, color negro */
+    margin: 0 auto;
+    margin-top: 10px;
+    background-color: rgb(255, 255, 255);
+    z-index: 2; /* Asegura que esté delante del carrusel */
+}
+
+/* Estilos para los elementos del menú desplegable */
+.dropdown-item {
+    transition: background-color 0.3s, color 0.3s; /* Transición suave */
+}
+
+/* Estilos al pasar el mouse sobre los elementos del menú desplegable */
+.dropdown-item:hover {
+    background-color: #000; /* Cambia el fondo a negro */
+    color: #fff; /* Cambia el color del texto a blanco */
+}
+/*****************************/
+.logo {
+    text-align: left;
+}
+.el-container {
+    float: left; /* Alinea "EL" a la izquierda */
+    margin-right: 1px; /* Espacio entre "EL" y "OSO" */
+}
+.texto-grande {
+    font-size: 80px;
+    font-weight: bold;
+    float: left; /* Cambiamos display: inline-block por float: left */
+    margin-right: 10px; /* Espacio entre "EL" y "OSO" */
+    font-family: "Gotham Black", sans-serif;
+}
+.texto-pequeno-container {
+    display: inline-block;
+    vertical-align: middle;
+}
+.texto-pequeno {
+    font-size: 30px;
+    display: block;
+    text-transform: uppercase;
+    margin-top: 20px;
+    margin-right: 10px;
+    margin-bottom: -30px;
+    font-family: "Century Gothic", sans-serif;
+}
+.btn {
+    margin-right: 5px; /* Agrega un espacio de 10px entre cada botón */
+}
+.negrita {
+    font-weight: bold;
+}
