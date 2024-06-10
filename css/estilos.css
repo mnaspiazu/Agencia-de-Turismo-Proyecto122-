@@ -64,7 +64,7 @@
 
 .custom-carousel {
     width: 1300px; /* Ancho fijo del carrusel */
-    max-height: 600px; /* Alto máximo del carrusel */
+    max-height: 500px; /* Alto máximo del carrusel */
     margin: auto; /* Centrar el carrusel */
     position: relative; /* Asegura que z-index funcione */
     z-index: 1; /* Asegura que el carrusel esté detrás de contenedor1 */
@@ -72,7 +72,7 @@
 
 .custom-carousel .carousel-item img {
     width: 100%; /* Ancho completo de las imágenes */
-    height: 600px; /* Ajusta el alto de las imágenes */
+    height: 500px; /* Ajusta el alto de las imágenes */
     object-fit: cover; /* Asegura que la imagen cubra completamente el contenedor */
 }
 
@@ -81,4 +81,19 @@ body{
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
+}
+.contenedorAbajo
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 1300px; /* Ancho del contenedor */
+    height: 80px; /* Altura del contenedor */
+    border: 1px solid #00000065; /* Borde sólido de 2px de ancho, color negro */
+    margin: 0 auto;
+    margin-top: 10px;
+    background-color: rgba(255, 255, 255, 0.365);
+    position: relative; /* Asegura que z-index funcione */
+    z-index: 2; /* Asegura que esté delante del carrusel */
 }
